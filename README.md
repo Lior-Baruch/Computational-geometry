@@ -3,7 +3,7 @@ Computational geometry course - Reichman-Uni
 
 # README
 
-This repository contains solutions for three computational geometry assignments from the course taught by Efi Fogel in Fall 2022. Each assignment is contained in a separate subdirectory, with the following naming convention: assignX, where X is the assignment number.
+This repository contains solutions for three computational geometry assignments from the course taught by Efi Fogel in Fall 2023. Each assignment is contained in a separate subdirectory, with the following naming convention: assignX, where X is the assignment number.
 
 Within each subdirectory, there are source files, documentation, and instructions for running the programs, as specified in the assignment instructions. The source files are written in either Python or C++, depending on the assignment.
 
