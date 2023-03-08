@@ -1,0 +1,29 @@
+README
+
+This repository contains a collection of solutions for five computational geometry exercises.
+
+Exercise 3.1:
+The program implements an O(n^2) algorithm that decides whether a stabber exists for a set S of n closed segments in the plane and finds a representative.
+
+Exercise 3.2:
+The program implements an O(nlogn) algorithm that constructs the union of n axis-parallel rectangles in the plane with their bottom sides lying on the x-axis.
+
+Exercise 3.3:
+The program implements an O(nlogn) time algorithm that computes an axis-parallel rectangle that contains all the vertices of the arrangement A(L) in its interior, where L is a set of n lines in the plane.
+
+Exercise 3.4:
+The program implements an O(n^(3/2) logn) time algorithm to solve Hopcroft's problem, which is to decide, given n lines and n points in the plane, whether any point is contained in any line.
+
+Exercise 3.5:
+The program proves an upper bound of 2n-3 on the complexity of the union of a set of polygonal pseudodisks with n vertices in total. It also constructs an example that has a lower bound of 2n-6 complexity.
+
+Exercise 3.6:
+The program proves the theorem that if H is a hole in polygon P, then P∩Q ≠ (P[H])∩Q if and only if there exists a translation t such that Q∩(P[H]+t) ≠ ∅.
+
+To run the programs, navigate to the root directory of the repository and run the respective Python or C++ files.
+
+Dependencies:
+The programs rely on the following Python libraries: NumPy, Matplotlib, and CGAL. If using the C++ programs, CMake is required.
+
+Contributors:
+The implementation was done by [Your Names Here].
