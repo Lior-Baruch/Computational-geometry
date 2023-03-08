@@ -1,0 +1,27 @@
+README
+
+This repository contains a Python implementation of solutions for four computational geometry exercises.
+
+Exercise 2.1:
+The program describes the gift wrapping algorithm in 3D space in detail, breaking down the functions exist(e), processed(e), and mark_processed(e) into operations applied to the current stack Q and convex hull H, represented by a half-edge data structure, so that the overall time complexity remains Q(n^2) in the worst case.
+
+Exercise 2.2:
+
+The program proves that every planar map has either a vertex with degree at most 3 or a face with degree at most 3.
+The program proves that every simple planar graph has a vertex with degree less than 6.
+Exercise 2.3:
+The program implements an efficient algorithm that computes the orientation of a simple polygon with n vertices in the plane that minimizes its height, such that its width does not exceed a positive rational number r = w^2. The resulting orientation is represented by the (not necessarily normalized) direction of the up vector (0,1) rotated together with the polygon so that it ends up at a minimal height position.
+
+Exercise 2.4:
+The program describes a construction (a polygon and guard placements) in each of the following settings where the specified vertex guards do not fully cover the polygon in the art gallery sense:
+
+A simple polygon with 2k vertices, for every k > 2, and a specific assignment of guards placed at every other vertex along the boundary of the polygon. Guards placed at the vertices vi, vi+2, vi+4, ..., do not fully cover the polygon.
+A simple polygon with 3k vertices, for every k > 2, and a specific assignment of guards placed at every third vertex along the boundary of the polygon.
+A simple polygon with n vertices, for every n > 5, and guards placed only at convex vertices. A vertex is convex if its interior angle is less than pi.
+To run the programs, navigate to the root directory of the repository and run the respective Python files.
+
+Dependencies:
+The programs rely on the following Python libraries: NumPy, Matplotlib, and CGAL.
+
+Contributors:
+The implementation was done by [Lior-Baruch].
