@@ -1,27 +1,43 @@
-# Computational-geometry
-Computational geometry course - Reichman-Uni
+# Computational Geometry Course Assignments
 
-# README
+This repository contains solutions for three assignments from a Computational Geometry course taught by Efi Fogel at Reichman University in Fall 2023. Each assignment, named as `assignX` where `X` is the assignment number, is included in its own directory.
 
-This repository contains solutions for three computational geometry assignments from the course taught by Efi Fogel in Fall 2023. Each assignment is contained in a separate subdirectory, with the following naming convention: assignX, where X is the assignment number.
+## Getting Started
 
-Within each subdirectory, there are source files, documentation, and instructions for running the programs, as specified in the assignment instructions. The source files are written in either Python or C++, depending on the assignment.
+1. Clone this repository.
+2. Navigate to the respective assignment directory for the source files, documentation, and instructions for running the programs.
+3. Depending on the assignment, you might need Python or a C++ compiler, and possibly additional libraries such as NumPy, Matplotlib, CGAL, and CMake.
 
-Below is a brief summary of each assignment:
+## Assignments
 
-# Assignment 1:
-This assignment contains solutions to four exercises, including sorting a set of points using the convex hull function, sorting points in a circular order, computing the convex hull of a set of points in linear time, and computing the convex hull of k convex polygons in O(nlog(k)) time.
+### Assignment 1 (`assign1`)
 
-# Assignment 2:
-This assignment contains solutions to four exercises, including the gift wrapping algorithm in 3D space, properties of planar maps and graphs, an algorithm for orienting a polygon to minimize its height, and constructions of guard placements that do not fully cover a polygon.
+This assignment includes solutions to tasks related to sorting points using the convex hull function and sorting a set of integers using a function that computes the convex hull of a set of points. The Python scripts for these tasks are `cch.py` and `chs.py`, respectively.
 
-# Assignment 3:
-This assignment contains solutions to five exercises, including algorithms for finding a stabber for a set of closed segments, constructing the union of axis-parallel rectangles, computing an axis-parallel rectangle containing all vertices of an arrangement of lines, solving Hopcroft's problem, and proving bounds on the complexity of the union of polygonal pseudodisks.
+### Assignment 2 (`assign2`)
 
-To run the programs, navigate to the root directory of the respective assignment and follow the instructions in the provided documentation.
+This assignment contains a Python script `finddir.py` in the `finddir` subdirectory, which reads a polygon from a file and finds the direction that minimizes the height of the polygon.
 
-Dependencies:
+### Assignment 3 (`assign3`)
+
+This assignment includes solutions to several computational geometry problems, implemented in Python scripts in various subdirectories:
+
+- `ex1_stabber` contains `stabber.py`: This script reads a set of segments from a file and checks if there exists a line that stabs all the segments.
+- `ex3_bblines` contains `bblines.py`: This script reads a set of lines from a file and computes the axis-parallel bounding rectangle of their intersection points.
+- `ex4_iscont` contains `iscont.py`: This script reads a set of lines and points from a file and checks if any point is contained in any line.
+
+## Running the Programs
+
+To run the programs, navigate to the root directory of the respective assignment and follow the instructions provided in the respective README files.
+
+## Dependencies
+
 The programs may rely on various libraries, including NumPy, Matplotlib, CGAL, and CMake, depending on the assignment.
 
-Contributors:
-The solutions were implemented by [Lior-Baruch].
+## Contributors
+
+The solutions were implemented by Lior Baruch.
+
+## License
+
+This project is licensed under the terms of the MIT license. Please refer to the LICENSE file for more information.
